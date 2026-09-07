@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NWSSU Attendance Tracker",
+    "slug": "nwssu-attendance-tracker",
+    "icon": "./assets/images/nwssu-removebg-preview.png",
+    "extra": {
+      "eas": {
+        "projectId": "a08b5132-f793-4435-937f-e65aed60febd"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.iypril.nwssuattendancetracker",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/nwssu-removebg-preview.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to scan student QR codes."
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
