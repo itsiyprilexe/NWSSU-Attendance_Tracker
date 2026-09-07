@@ -42,3 +42,5 @@ yarn-error.*
 
 node_modules/
 .expo/
+
+desktop.ini
